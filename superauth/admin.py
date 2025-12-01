@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import CustomUser
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
-from .models import CustomUser,OTPRecord
+from .models import CustomUser
 
 @admin.register(CustomUser)
 class CustomUserAdmin(UserAdmin):
@@ -20,4 +20,3 @@ class CustomUserAdmin(UserAdmin):
     get_full_name.short_description = "Full Name"
 
 
-admin.site.register(OTPRecord)

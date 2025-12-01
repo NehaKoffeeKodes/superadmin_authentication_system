@@ -42,3 +42,4 @@ Desktop.ini
 *secret*
 *key*
 local_settings.py
+migrations/0002_delete_otprecord.py

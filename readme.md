@@ -88,9 +88,9 @@ Security Features used:
 • Only is_superuser users allowed  
 • OTP expiry & one-time use  
 
-Models Used
+Models Used :-
 
 CustomUser    -   stores totp_secret, email, etc.
-OTPRecord      - - stores email OTPs (otp_service app)
+
 
 

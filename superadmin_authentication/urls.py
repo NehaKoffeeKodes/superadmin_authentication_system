@@ -20,8 +20,7 @@ from superauth import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("login/", views.SuperAdminLogin.as_view()),
-    path("otp-verify/", views.VerifySuperAdminOTP.as_view()),
+    path('superadmin/', include('superauth.urls')),
 ]
 
     

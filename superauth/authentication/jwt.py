@@ -1,8 +1,6 @@
 import datetime,jwt
 from django.conf import settings
 
-
-
 def create_jwt(user, expire_minutes: int = 15) -> str:
     """
     Creates a JWT token for the given user.
@@ -17,3 +15,5 @@ def create_jwt(user, expire_minutes: int = 15) -> str:
     
     token = jwt.encode(payload, settings.SECRET_KEY, algorithm="HS256")
     return token
+
+

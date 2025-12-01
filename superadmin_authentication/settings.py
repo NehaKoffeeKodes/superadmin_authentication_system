@@ -132,7 +132,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
-       'superauth.authentication.JWTAuthentication'
+       'superauth.authentication.superadmin_authentication.JWTAuthentication'
 
     )
 }
@@ -143,8 +143,8 @@ EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
-EMAIL_HOST_USER = "nehanimje2004@gmail.com"
-EMAIL_HOST_PASSWORD = "orud rfdq kmml mvht"   
+EMAIL_HOST_USER = "cs2147.assc@gmail.com"
+EMAIL_HOST_PASSWORD = "yhic umiw fwle yofa"   
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER   
 
  

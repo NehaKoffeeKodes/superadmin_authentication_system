@@ -65,8 +65,8 @@ Success:-
     "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.xxxxxxxxxx",
     "message": "Welcome back, SuperAdmin!",
     "user": {
-        "name": "your-name",
-        "email": "your-email"
+        "name": "your_name",
+        "email": "your_email"
     }
 }
 
